@@ -1,0 +1,182 @@
+.recap-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.recap-container h2 {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+  width: 80%;
+}
+
+.order-details {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  padding: 3rem 0;
+}
+
+.recap-container ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  list-style-type: none;
+  width: 40%;
+  border: 1px solid tomato;
+}
+
+.recap-container ul h2 {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  background: #ff6347;
+  background: -moz-linear-gradient(left, #ff6347 0%, #ff8765 50%, #ffb48b 100%);
+  background: -webkit-linear-gradient(
+    left,
+    #ff6347 0%,
+    #ff8765 50%,
+    #ffb48b 100%
+  );
+  opacity: 0.9;
+  background: linear-gradient(to right, #ff6347 0%, #ff8765 50%, #ffb48b 100%);
+}
+
+.recap-container ul li {
+  font-size: 1.3rem;
+}
+
+.recap-container ul span {
+  font-weight: 500;
+  font-style: italic;
+  color: tomato;
+}
+
+.recap-container .check-container h2 {
+  text-align: right;
+}
+
+.recap-container .check-container h2 span {
+  color: green;
+}
+
+.recap-container .check-container h3 {
+  font-size: 1.5rem;
+}
+.recap-container .check-container h3 span {
+  color: tomato;
+}
+
+.recap-container .check-container .buttons-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.recap-container .check-container .buttons-container .order {
+  background-color: green;
+}
+
+.recap-container .check-container .buttons-container .order:hover {
+  background-color: #fff;
+  border: 2px solid green;
+}
+
+@media screen and (max-width: 1100px) {
+  .recap-container ul {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .recap-container h2 {
+    font-size: 1.7rem;
+  }
+  .recap-container ul li {
+    font-size: 1rem;
+  }
+  .recap-container ul h2 {
+    font-size: 1.2rem;
+  }
+
+  .recap-container .check-container h3 {
+    font-size: 1.3rem;
+  }
+  .recap-container .check-container h2 {
+    font-size: 1.7rem;
+  }
+  .recap-container .check-container .buttons-container button {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .order-details {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+  }
+  .recap-container h2 {
+    font-size: 1.5rem;
+  }
+  .recap-container ul {
+    width: 80%;
+  }
+  .recap-container ul li {
+    font-size: 0.9rem;
+  }
+  .recap-container ul h2 {
+    font-size: 1.1rem;
+  }
+
+  .recap-container .check-container h3 {
+    font-size: 1.1rem;
+  }
+  .recap-container .check-container h2 {
+    font-size: 1.6rem;
+  }
+  .recap-container .check-container .buttons-container button {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .recap-container h2 {
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 1.3rem;
+  }
+  .recap-container ul {
+    width: 90%;
+  }
+  .recap-container ul li {
+    font-size: 0.8rem;
+  }
+  .recap-container ul h2 {
+    font-size: 1rem;
+  }
+
+  .recap-container .check-container h3 {
+    font-size: 1rem;
+  }
+  .recap-container .check-container h2 {
+    font-size: 1.4rem;
+  }
+  .recap-container .check-container .buttons-container button {
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .recap-container .check-container h2 {
+    width: 100%;
+  }
+
+  .recap-container ul {
+    width: 95%;
+  }
+  .delete-price-container {
+    width: 30%;
+  }
+}

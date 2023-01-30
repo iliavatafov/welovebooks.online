@@ -1,0 +1,291 @@
+.book-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  background-color: #f6f5f3;
+  height: 78%;
+  width: 60%;
+  border-radius: 1rem;
+  -webkit-box-shadow: 1px 2px 17px 8px rgba(0, 0, 0, 0.76);
+  cursor: pointer;
+}
+.book-card-container-hover {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  cursor: pointer;
+  border-radius: 1rem;
+  height: 80%;
+  width: 62%;
+  transition: height 0.5s, width 0.5s;
+  background-color: antiquewhite;
+  border: 3px solid tomato;
+  padding-bottom: 0.5rem;
+}
+
+.book-card-container .img-container,
+.book-card-container-hover .img-container {
+  width: 100%;
+  height: 65%;
+}
+
+.book-card-container .img-container img,
+.book-card-container-hover .img-container img {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  -webkit-box-shadow: 0px 10px 13px -2px rgba(0, 0, 0, 0.72);
+  box-shadow: 0px 10px 13px -2px rgba(0, 0, 0, 0.72);
+}
+
+.book-card-container .content .title,
+.book-card-container-hover .content .title {
+  font-size: 1.4rem;
+  color: tomato;
+}
+
+.book-card-container .content,
+.book-card-container-hover .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.3rem;
+  width: 80%;
+  height: 100%;
+}
+
+.book-card-container .content .author,
+.book-card-container-hover .content .author {
+  color: #7a7a7a;
+  font-style: italic;
+}
+
+.book-card-container .content .genre,
+.book-card-container-hover .content .genre {
+  color: #7a7a7a;
+}
+
+.book-card-container .content .genre span,
+.book-card-container-hover .content .genre span {
+  color: black;
+}
+
+.price-rating-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price-rating-container .price {
+  font-weight: 800;
+  font-size: 1.3rem;
+  color: tomato;
+}
+
+.price-rating-container .rating {
+  gap: 0;
+}
+
+.book-card-container .content .price-rating-container .rating .star-yellow,
+.book-card-container-hover
+  .content
+  .price-rating-container
+  .rating
+  .star-yellow {
+  color: gold;
+}
+
+.book-card-container .content hr {
+  width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .book-card-container .content .title {
+    font-size: 1.2rem;
+    color: tomato;
+  }
+  .book-card-container .content .author,
+  .book-card-container .content .genre {
+    font-size: 0.9em;
+  }
+
+  .price-rating-container .price {
+    font-size: 1.1rem;
+  }
+
+  .price-rating-container .rating {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .book-card-container .content .title {
+    font-size: 1.1rem;
+    color: tomato;
+  }
+  .book-card-container .content .author,
+  .book-card-container .content .genre {
+    font-size: 0.8em;
+  }
+  .price-rating-container .price {
+    font-size: 1rem;
+  }
+
+  .price-rating-container .rating {
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .book-card-container .content .title {
+    font-size: 1rem;
+    color: tomato;
+  }
+  .book-card-container .content .author,
+  .book-card-container .content .genre {
+    font-size: 0.7em;
+  }
+  .price-rating-container .price {
+    font-size: 0.9rem;
+  }
+
+  .price-rating-container .rating {
+    font-size: 0.6rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .book-card-container {
+    height: 82%;
+  }
+  .book-card-container-hover {
+    height: 84%;
+  }
+  .book-card-container .content .title {
+    font-size: 1.3rem;
+    color: tomato;
+  }
+  .book-card-container .content .author,
+  .book-card-container .content .genre {
+    font-size: 1rem;
+  }
+  .price-rating-container .price {
+    font-size: 1.2rem;
+  }
+
+  .price-rating-container .rating {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .book-card-container .content .title {
+    font-size: 1.2rem;
+    color: tomato;
+  }
+  .book-card-container .content .author,
+  .book-card-container .content .genre {
+    font-size: 0.9em;
+  }
+  .price-rating-container .price {
+    font-size: 1.1rem;
+  }
+
+  .price-rating-container .rating {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .book-card-container .content .title {
+    font-size: 1.1rem;
+    color: tomato;
+  }
+  .book-card-container .content .author,
+  .book-card-container .content .genre {
+    font-size: 0.8em;
+  }
+  .price-rating-container .price {
+    font-size: 1rem;
+  }
+
+  .price-rating-container .rating {
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .book-card-container .content .title {
+    font-size: 1rem;
+    color: tomato;
+  }
+  .book-card-container .content .author,
+  .book-card-container .content .genre {
+    font-size: 0.7em;
+  }
+  .price-rating-container .price {
+    font-size: 0.9rem;
+  }
+
+  .price-rating-container .rating {
+    font-size: 0.6rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .book-card-container .content .title {
+    font-size: 0.9rem;
+    color: tomato;
+  }
+  .book-card-container .content .author,
+  .book-card-container .content .genre {
+    font-size: 0.6em;
+  }
+  .price-rating-container .price {
+    font-size: 0.8rem;
+  }
+
+  .price-rating-container .rating {
+    font-size: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .book-card-container .content .title {
+    font-size: 0.8rem;
+    color: tomato;
+  }
+  .book-card-container .content .author,
+  .book-card-container .content .genre {
+    font-size: 0.5em;
+  }
+  .price-rating-container .price {
+    font-size: 0.7rem;
+  }
+
+  .price-rating-container .rating {
+    font-size: 0.4rem;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .book-card-container .content .title {
+    font-size: 0.6rem;
+    color: tomato;
+  }
+  .book-card-container .content .author,
+  .book-card-container .content .genre {
+    font-size: 0.3em;
+  }
+  .price-rating-container .price {
+    font-size: 0.5rem;
+  }
+
+  .price-rating-container .rating {
+    font-size: 0.2rem;
+  }
+}

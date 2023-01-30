@@ -1,0 +1,201 @@
+.messages-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 4rem;
+  padding-bottom: 12rem;
+  max-width: 2600px;
+}
+
+.table-container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-btns-container {
+  width: 70%;
+  height: 4rem;
+}
+
+.page-btns-container .clicked-btn {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  height: 5rem;
+  width: 20%;
+  background-color: tomato;
+  -webkit-box-shadow: 0px 0px 24px 15px rgba(0, 0, 0, 0.38);
+  box-shadow: 0px 0px 24px 15px rgba(0, 0, 0, 0.38);
+  transition: all 0.5s ease-in-out;
+}
+
+.page-btns-container .standard-btn {
+  background-color: #8e7470;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  height: 4rem;
+  width: 20%;
+}
+
+.page-btns-container .standard-btn:hover,
+.page-btns-container .clicked-btn:hover {
+  background-color: tomato;
+  color: #fff;
+}
+
+.messages-container table {
+  border-collapse: collapse;
+  width: 70%;
+  color: #fff;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  -webkit-box-shadow: 0px 0px 42px 9px rgba(0, 0, 0, 0.96);
+  box-shadow: 0px 0px 42px 9px rgba(0, 0, 0, 0.96);
+}
+
+.table-head .column1 {
+  border-top-left-radius: 0.5rem;
+}
+
+.table-head .column5 {
+  border-top-right-radius: 0.5rem;
+}
+
+.table-head th {
+  text-align: left;
+  padding-left: 1rem;
+}
+
+.messages-container table thead tr {
+  background-color: #8e7470;
+  height: 4rem;
+}
+
+.messages-container table tbody tr td {
+  padding: 1rem;
+}
+
+.messages-container table tbody tr:nth-child(odd) {
+  background-color: rgba(0, 0, 0, 0.9);
+  font-weight: 300;
+}
+.messages-container table tbody tr:nth-child(even) {
+  background-color: rgb(77, 69, 71, 0.9);
+  font-weight: 300;
+}
+
+.column4 {
+  width: 50%;
+}
+
+.messages-container table tbody .column5 div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.messages-container .table-container table tbody tr:last-child :last-child {
+  border-bottom-right-radius: 0.5rem;
+}
+
+.messages-container .table-container table tbody tr:last-child :first-child {
+  border-bottom-left-radius: 0.5rem;
+}
+
+input {
+  border: none;
+  cursor: pointer;
+  font-weight: 400;
+  padding: 5px 10px;
+  background-color: tomato;
+  transition: all 0.5s ease-in-out;
+  border-radius: 0.5rem;
+  height: 2rem;
+  align-self: center;
+  color: #fff;
+  font-size: 1rem;
+}
+
+input:hover {
+  background-color: #fff;
+  font-weight: 400;
+  color: #000;
+  transition: all 0.5s ease-in-out;
+}
+
+@media screen and (max-width: 1980px) {
+  .messages-container table {
+    width: 80%;
+  }
+  .page-btns-container {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 1700px) {
+  .messages-container table {
+    width: 90%;
+  }
+  .page-btns-container {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .messages-container .table-container table tr {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .messages-container table {
+    width: 80%;
+  }
+  .page-btns-container {
+    display: flex;
+    width: 80%;
+  }
+
+  .page-btns-container .clicked-btn {
+    width: 50%;
+    height: 80%;
+    align-self: flex-end;
+  }
+
+  .page-btns-container .standard-btn {
+    width: 50%;
+    height: 60%;
+    align-self: flex-end;
+  }
+
+  .messages-container table tr td {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .messages-container table {
+    margin-bottom: 10rem;
+  }
+  .messages-container table tr td {
+    font-size: 0.8rem;
+  }
+  .page-btns-container .clicked-btn {
+    font-size: 0.9rem;
+  }
+
+  .page-btns-container .standard-btn {
+    font-size: 0.9rem;
+  }
+  input {
+    font-size: 0.8rem;
+  }
+}

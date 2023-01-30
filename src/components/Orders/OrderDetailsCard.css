@@ -1,0 +1,80 @@
+.orders-container .dynamic-container .orders-list .list-item-wrapper {
+  background-color: #f6f5f3;
+  border-radius: 1rem;
+  font-size: 1rem;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.orders-container
+  .dynamic-container
+  .orders-list
+  .content-container
+  .content-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.orders-container
+  .dynamic-container
+  .orders-list
+  .content-container
+  .content-list
+  span {
+  font-weight: 700;
+  font-style: italic;
+}
+
+.orders-container .dynamic-container .orders-list .content-container h3 {
+  padding-bottom: 0.5rem;
+  color: tomato;
+}
+
+.orders-list .list-item-wrapper div {
+  width: 30%;
+}
+
+.orders-list .list-item-wrapper .books-boxlist-container h3 {
+  padding-bottom: 0.5rem;
+  color: tomato;
+}
+
+.orders-list .list-item-wrapper .books-boxlist {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.orders-list .list-item-wrapper .books-boxlist span {
+  font-weight: 700;
+  font-style: italic;
+}
+
+.orders-list .buttons-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.orders-list .buttons-wrapper input:hover {
+  background-color: #fff;
+  color: tomato;
+  border: 2px solid tomato;
+  transition: all 0.2s ease-in-out;
+}
+
+@media screen and (max-width: 740px) {
+  .orders-container .dynamic-container .orders-list .list-item-wrapper {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .orders-list .list-item-wrapper div {
+    width: 100%;
+  }
+}
