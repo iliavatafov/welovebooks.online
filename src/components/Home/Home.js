@@ -8,14 +8,17 @@ import { Slider } from "./Slider";
 import { Modal } from "../Modal/Modal";
 
 import "../Home/Home.css";
+import { LoadingSpinner } from "../Spinner/Spinner";
 
 export const Home = () => {
   const { books } = useContext(BookContext);
-  const { isModal, modalMessage } = useContext(LoadingContext);
+  const { isModal, modalMessage, isLoading } = useContext(LoadingContext);
 
   const recommendedBooks = books.filter((b) => b.recommended === true);
 
-  return isModal ? (
+  return isLoading ? (
+    <LoadingSpinner />
+  ) : isModal ? (
     <Modal message={modalMessage} />
   ) : (
     <div className="home-container">
