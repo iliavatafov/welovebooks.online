@@ -1,7 +1,4 @@
-import { useEffect } from "react";
-import { useContext } from "react";
-import { useState } from "react";
-
+import { useEffect, useContext, useState } from "react";
 import { LoadingContext } from "../../context/LoadingContext";
 
 import { GetAllOrders } from "../../apis/orders";
