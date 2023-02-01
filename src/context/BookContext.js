@@ -71,6 +71,7 @@ export const BookProvider = ({ children }) => {
       ) {
         data.push(item);
       }
+      return null;
     });
     setFilteredData(data);
     navigate("/books/");
