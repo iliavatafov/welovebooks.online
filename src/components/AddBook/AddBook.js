@@ -71,10 +71,7 @@ export const AddBook = () => {
             price: "",
             pageCount: "",
             issueYear: "",
-            rating: {
-              rating: 0,
-              usersRated: [],
-            },
+            rating: "0",
           });
         }
       } catch (error) {

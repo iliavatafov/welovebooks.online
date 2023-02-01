@@ -1,11 +1,10 @@
-import { useContext } from "react";
 import { createContext, useEffect, useReducer } from "react";
+import { useContext } from "react";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-import { LoadingContext } from "./LoadingContext";
-
 import { DeleteBook, GetAllBooks } from "../apis/books";
+import { LoadingContext } from "./LoadingContext";
 
 export const BookContext = createContext();
 
@@ -13,16 +12,12 @@ const bookReducer = (state, action) => {
   switch (action.type) {
     case "ADD_BOOKS":
       return [...action.payload];
-      break;
     case "ADD_BOOK":
       return [action.payload, ...state];
-      break;
     case "EDIT_BOOK":
       return state.map((x) => (x.id === action.bookId ? action.payload : x));
-      break;
     case "DELETE_BOOK":
       return state.filter((x) => x.id !== action.bookId);
-      break;
     default:
       return state;
   }
@@ -33,10 +28,10 @@ export const BookProvider = ({ children }) => {
   const [searchTerm, setSearchTerm] = useState("");
   const [filteredData, setFilteredData] = useState([]);
 
-  const navigate = useNavigate();
-
-  const { showLoading, hideLoading, showModal, addModalMessage } =
+  const { showLoading, hideLoading, addModalMessage, showModal } =
     useContext(LoadingContext);
+
+  const navigate = useNavigate();
 
   useEffect(() => {
     showLoading();
@@ -50,10 +45,11 @@ export const BookProvider = ({ children }) => {
         });
       })
       .catch((error) => {
-        showModal();
+        hideLoading();
         addModalMessage(error.message);
+        showModal();
       });
-  }, []);
+  }, [showLoading, hideLoading, addModalMessage, showModal]);
 
   const booksLocalStorage = JSON.parse(localStorage.getItem("books"));
 

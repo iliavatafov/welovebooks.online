@@ -20,7 +20,6 @@ export const GetAllBooks = async () => {
     querySnapshot.forEach((doc) => {
       books.push({ id: doc.id, ...doc.data() });
     });
-
     return {
       success: true,
       message: "The books are fetched correctly",

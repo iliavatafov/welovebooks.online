@@ -19,7 +19,6 @@ export const GetAllOrders = async () => {
     querySnapshot.forEach((doc) => {
       orders.push({ id: doc.id, ...doc.data() });
     });
-
     orders.sort((a, b) =>
       moment(b.createdAt, "DD-MM-YYYY HH:mm A").diff(
         moment(a.createdAt, "DD-MM-YYYY HH:mm A")

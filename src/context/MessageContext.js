@@ -21,6 +21,7 @@ export const MessagesProvider = ({ children }) => {
     showLoading();
     GetAllMessages()
       .then((res) => {
+        hideLoading();
         if (res.success) {
           setReadMessages(res.data.read);
           setUnreadMessages(res.data.unread);
@@ -28,13 +29,13 @@ export const MessagesProvider = ({ children }) => {
           showModal();
           addModalMessage(res.message);
         }
-        hideLoading();
       })
       .catch((error) => {
+        hideLoading();
         showModal();
         addModalMessage(error.message);
       });
-  }, [messagesCounts]);
+  }, [messagesCounts, showLoading, hideLoading, showModal, addModalMessage]);
 
   useEffect(() => {
     GetAllMessages().then((res) => {

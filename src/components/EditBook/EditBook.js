@@ -52,6 +52,8 @@ export const EditBook = () => {
         const response = await UpdateBook({ id, ...inputValues });
         hideLoading();
         if (response.success) {
+          showModal();
+          addModalMessage(response.message);
           bookEdit(id, response.data);
           navigate(`/details/${id}`);
           setInputValues({

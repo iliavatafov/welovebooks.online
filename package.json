@@ -27,7 +27,15 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ]
+    ],
+    "rules": {
+      "react-hooks/exhaustive-deps": [
+        "error",
+        {
+          "additionalHooks": "useEffect"
+        }
+      ]
+    }
   },
   "browserslist": {
     "production": [

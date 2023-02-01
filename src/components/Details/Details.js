@@ -22,6 +22,7 @@ export const Details = () => {
 
   const { user, userLogin } = useContext(AuthContext);
   const { onDelete, books } = useContext(BookContext);
+  const { noLoggedInUserAdd } = useContext(CartContext);
   const {
     showLoading,
     hideLoading,
@@ -31,7 +32,6 @@ export const Details = () => {
     addModalMessage,
     modalMessage,
   } = useContext(LoadingContext);
-  const { noLoggedInUserAdd } = useContext(CartContext);
 
   const { id } = useParams();
 
@@ -45,7 +45,7 @@ export const Details = () => {
       setUserData(res.data);
       hideLoading();
     });
-  }, [user]);
+  }, [user, showLoading, hideLoading]);
 
   const addToCart = async () => {
     if (userData) {

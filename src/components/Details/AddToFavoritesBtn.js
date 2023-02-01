@@ -5,17 +5,17 @@ import { AuthContext } from "../../context/AuthContext";
 import { LoadingContext } from "../../context/LoadingContext";
 
 import { UpdateUser } from "../../apis/users";
+import { LoadingSpinner } from "../Spinner/Spinner";
 
 export const AddToFavoritesBtn = ({ userData, user, id }) => {
   const { userLogin } = useContext(AuthContext);
-  const { showModal, addModalMessage } = useContext(LoadingContext);
+  const { showModal, addModalMessage, showLoading, hideLoading, isLoading } =
+    useContext(LoadingContext);
 
   const navigate = useNavigate();
 
   const addToFavorites = async () => {
     const currentFavoriteBooks = userData.favoriteBooks;
-
-    console.log(currentFavoriteBooks);
 
     let favoriteBooks = [];
 
@@ -23,28 +23,29 @@ export const AddToFavoritesBtn = ({ userData, user, id }) => {
       favoriteBooks = [id];
     } else {
       favoriteBooks = [id, ...currentFavoriteBooks];
-      console.log(favoriteBooks);
     }
 
     try {
+      showLoading();
       const result = await UpdateUser({
         ...userData,
         favoriteBooks,
         id: user.id,
       });
+      hideLoading();
       if (result.success) {
         userLogin(result.data);
         navigate("/favorites");
-      } else {
-        showModal();
-        addModalMessage(result.message);
       }
     } catch (error) {
+      hideLoading();
       showModal();
       addModalMessage(error.message);
     }
   };
-  return (
+  return isLoading ? (
+    <LoadingSpinner />
+  ) : (
     <div className="favorites-wrapper">
       <button onClick={addToFavorites} type="submit" className="favorites-btn">
         <i className="far fa-heart"></i> Add to favorites

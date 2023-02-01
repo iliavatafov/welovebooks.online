@@ -47,7 +47,7 @@ export const Orders = () => {
         showModal();
         addModalMessage(error.message);
       });
-  }, []);
+  }, [addModalMessage, showModal, showLoading, hideLoading]);
 
   const layoutChanger = (layout) => {
     setLayout(layout);
