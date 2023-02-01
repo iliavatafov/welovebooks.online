@@ -98,13 +98,26 @@ export const BookProvider = ({ children }) => {
     navigate("/details/" + bookId);
   };
 
-  const onDelete = (bookId) => {
-    DeleteBook(bookId);
-    dispatcher({
-      type: "DELETE_BOOK",
-      bookId,
-    });
-    navigate("/books/");
+  const onDelete = async (bookId) => {
+    try {
+      showLoading();
+      const response = await DeleteBook(bookId);
+      hideLoading();
+      if (response.success) {
+        dispatcher({
+          type: "DELETE_BOOK",
+          bookId,
+        });
+        navigate("/books/");
+      } else {
+        showModal();
+        addModalMessage("Somthing went wrong!");
+      }
+    } catch (error) {
+      hideLoading();
+      showModal();
+      addModalMessage("Somthing went wrong!");
+    }
   };
 
   return (
