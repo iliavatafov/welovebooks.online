@@ -97,7 +97,7 @@
 
 The repo includes "<i>front-end</i>" of the app. "<i>Back-end</i>" is provided by BaaS - Firebase.
 
-Dependencies, (besides Create-React-App deps):
+<b>Dependencies, (besides Create-React-App deps):<b>
 
 - "firebase"
 - "react-router-dom"
@@ -105,7 +105,7 @@ Dependencies, (besides Create-React-App deps):
 - "uuid"
 - "crypto-js"
 
-Admin account:
+<b>Admin account:<b>
 
 - username: ilia@abv.bg
 - password: Qwerty1!
