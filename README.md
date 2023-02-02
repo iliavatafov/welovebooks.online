@@ -57,9 +57,10 @@
 - <i><b>Add book to favorites (logged in user only)</b></i>
 - <i><b>Delete book from favorites (logged in user only)</b></i>
 
-- <i><b>Create book (admin only)</b></i>
+<i><b>Create book (admin only)</b></i>
 
-- <i><b>Cart page</b></i>
+<i><b>Cart page</b></i>
+
 - <i><b>Delete book from cart (every user exept admin)</b></i>
 - <i><b>Dropdown to choose count of books</b></i>
 - <i><b>Form with validations for delivery and contact data</b></i>
