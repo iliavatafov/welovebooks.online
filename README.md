@@ -1,3 +1,3 @@
-<link rel="stylesheet" type="text/css" href="https://github.com/iliavatafov/welovebooks.online/blob/main/README.css">
+<link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/iliavatafov/welovebooks.online/main/README.css">
 
 <h1>React</h1>
