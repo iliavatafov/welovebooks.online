@@ -1,32 +1,32 @@
 <h1 align="center"><i>WE Love BOOKS</i></h1>
 
-\*\*\_<p align="center"> welovebooks.online is an online bookstore that provides an opportunity for users to purchase, rate and add books to there favorites collection. An admin panel has also been developed, which provides a basic opportunity for the site administrator to manage orders and messages from customers.
+<p align="center"> welovebooks.online is an online bookstore that provides an opportunity for users to purchase, rate and add books to there favorites collection. An admin panel has also been developed, which provides a basic opportunity for the site administrator to manage orders and messages from customers.
 
-</p>_**
+</p>
 
 <hr/>
 
 <p align="center">
       <a href="https://welovebooks.online/">
-    <img src="./readme_images/home.png"/>
+    <img src="./readme_images/home"/>
     <hr/>
-    <img src="./readme_images/Books.png"/>
+    <img src="./readme_images/Books"/>
     <hr/>
-    <img src="./readme_images/Details.png"/>
+    <img src="./readme_images/Details"/>
     <hr/>
-    <img src="./readme_images/About.png"/>
-    <hr/>
-    <hr/>
-    <img src="./readme_images/Contacts.png"/>
+    <img src="./readme_images/About"/>
     <hr/>
     <hr/>
-    <img src="./readme_images/Cart.png"/>
+    <img src="./readme_images/Contacts"/>
     <hr/>
     <hr/>
-    <img src="./readme_images/Orders.png"/>
+    <img src="./readme_images/Cart"/>
     <hr/>
     <hr/>
-    <img src="./readme_images/Messages.png"/>
+    <img src="./readme_images/Orders"/>
+    <hr/>
+    <hr/>
+    <img src="./readme_images/Messages"/>
     <hr/>
     </a>
 <p>
