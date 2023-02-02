@@ -1,6 +1,6 @@
 <h1 align="center"><i>WE Love BOOKS</i></h1>
 
-<p align="center"> welovebooks.online is an online bookstore that provides an opportunity for users to purchase, rate and add books to there favorites collection. An admin panel has also been developed, which provides a basic opportunity for the site administrator to manage orders and messages from customers.
+<p align="center"> WeLoveBooks.online is an online bookstore that provides users with the opportunity to purchase, rate, and add books to their favorites collection. An admin panel has also been developed, giving the site administrator basic tools to manage orders and messages from customers.
 
 </p>
 
