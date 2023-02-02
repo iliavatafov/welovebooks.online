@@ -41,15 +41,15 @@
 
 <hr/>
 
-<i><b>Responsive Design</b></i>
+<b>Responsive Design</b>
 
-<i><b>Home page with carousel and top listings</b></i>
+<b>Home page with carousel and top listings</b>
 
-<i><b>Auth (Register, Login) with validations</b></i>
+<b>Auth (Register, Login) with validations</b>
 
-<i><b>Books page - books listing</b></i>
+<b>Books page - books listing</b>
 
-<i><b>Book details</b></i>
+<b>Book details</b>
 
 - <i><b>Update book (admin only)</b></i>
 - <i><b>Delete book (admin only)</b></i>
@@ -65,24 +65,28 @@
 - <i><b>Dropdown to choose count of books</b></i>
 - <i><b>Form with validations for delivery and contact data</b></i>
 
-- <i><b>Recap page</b></i>
+<i><b>Recap page</b></i>
+
 - <i><b>Edit order</b></i>
 - <i><b>Confirm order</b></i>
 
-- <i><b>About page</b></i>
+<i><b>About page</b></i>
 
-- <i><b>Contacts page</b></i>
+<i><b>Contacts page</b></i>
+
 - <i><b>Integration with google maps API</b></i>
 - <i><b>Contact form with validations</b></i>
 
-- <i><b>Favorites page (logged in users only)</b></i>
+<i><b>Favorites page (logged in users only)</b></i>
 
-- <i><b>Messages page - read and unread view (admin only)</b></i>
+<i><b>Messages page - read and unread view (admin only)</b></i>
+
 - <i><b>Delete message</b></i>
 - <i><b>Mark as read</b></i>
 - <i><b>Mark as unread</b></i>
 
-- <i><b>Orders page - pending and completed view (admin only)</b></i>
+<i><b>Orders page - pending and completed view (admin only)</b></i>
+
 - <i><b>Delete order</b></i>
 - <i><b>Complete order</b></i>
 - <i><b>Mark as pending</b></i>
