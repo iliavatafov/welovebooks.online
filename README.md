@@ -1,7 +1,6 @@
 <h1 align="center"><i>WE Love BOOKS</i></h1>
 
 <p align="center"> An online bookstore that provides users with the ability to purchase, rate, and add books to their favorite collection, WE Love BOOKS offers a seamless shopping experience. The platform also includes an admin panel that gives the site administrator basic tools to manage orders and messages from customers.
-
 </p>
 
 <hr/>
@@ -42,51 +41,51 @@
 
 <hr/>
 
-- Responsive Design
+- <i><b>Responsive Design</b></i>
 
-- Home page with carousel and top listings
+- <i><b>Home page with carousel and top listings</b></i>
 
-- Auth (Register, Login) with validations
+- <i><b>Auth (Register, Login) with validations</b></i>
 
-- Books page - books listing
+- <i><b>Books page - books listing</b></i>
 
-- Book details
-  Update book (admin only)
-  Delete book (admin only)
-  Add book to cart (every user except admin)
-  Add book to favorites (logged in user only)
-  Delete book from favorites (logged in user only)
+- <i><b>Book details</b></i>
+- <i><b>Update book (admin only)</b></i>
+- <i><b>Delete book (admin only)</b></i>
+- <i><b>Add book to cart (every user exept admin)</b></i>
+- <i><b>Add book to favorites (logged in user only)</b></i>
+- <i><b>Delete book from favorites (logged in user only)</b></i>
 
-- Create book (admin only)
+- <i><b>Create book (admin only)</b></i>
 
-- Cart page
-  Delete book from cart (every user except admin)
-  Dropdown to choose count of books
-  Form with validations for delivery and contact data
+- <i><b>Cart page</b></i>
+- <i><b>Delete book from cart (every user exept admin)</b></i>
+- <i><b>Dropdown to choose count of books</b></i>
+- <i><b>Form with validations for delivery and contact data</b></i>
 
-- Recap page
-  Edit order
-  Confirm order
+- <i><b>Recap page</b></i>
+- <i><b>Edit order</b></i>
+- <i><b>Confirm order</b></i>
 
-- About page
+- <i><b>About page</b></i>
 
-- Contacts page
-  Integration with google maps API
-  Contact form with validations
+- <i><b>Contacts page</b></i>
+- <i><b>Integration with google maps API</b></i>
+- <i><b>Contact form with validations</b></i>
 
-- Favorites page (logged in users only)
+- <i><b>Favorites page (logged in users only)</b></i>
 
-- Messages page - read and unread view (admin only)
-  Delete message
-  Mark as read
-  Mark as unread
+- <i><b>Messages page - read and unread view (admin only)</b></i>
+- <i><b>Delete message</b></i>
+- <i><b>Mark as read</b></i>
+- <i><b>Mark as unread</b></i>
 
-- Orders page - pending and completed view (admin only)
-  Delete order
-  Complete order
-  Mark as pending
+- <i><b>Orders page - pending and completed view (admin only)</b></i>
+- <i><b>Delete order</b></i>
+- <i><b>Complete order</b></i>
+- <i><b>Mark as pending</b></i>
 
-- Others (validation service, loading spinner, modal to inform user for errors or result of requests for better UI)
+- <i><b>others (validation service, loading spinner, modal to inform user for errors or result of requests for better UI)</b></i>
 
 <hr/>
 
