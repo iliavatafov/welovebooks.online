@@ -97,17 +97,17 @@
 
 The repo includes "<i>front-end</i>" of the app. "<i>Back-end</i>" is provided by BaaS - Firebase.
 
-<b>Dependencies, (besides Create-React-App deps):<b>
+Dependencies, (besides Create-React-App deps):
 
-- <i>"firebase"<i>
-- <i>"react-router-dom"<i>
-- <i>"moment"<i>
-- <i>"uuid"<i>
-- <i>"crypto-js"<i>
+- "firebase"
+- "react-router-dom"
+- "moment"
+- "uuid"
+- "crypto-js"
 
-<b>Admin account:<b>
+Admin account:
 
-- <i>username: ilia@abv.bg<i>
-- <i>password: Qwerty1!<i>
+- username: ilia@abv.bg
+- password: Qwerty1!
 
 <h2>Hosted at <a href="https://welovebooks.online/"/>https://welovebooks.online/</h2>
