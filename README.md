@@ -91,7 +91,7 @@
 - <i>Complete order</i>
 - <i>Mark as pending</i>
 
-- <b>others (validation service, loading spinner, modal to inform user for errors or result of requests for better UI)</b>
+<b>others (validation service, loading spinner, modal to inform user for errors or result of requests for better UI)</b>
 
 <hr/>
 
