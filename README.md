@@ -29,12 +29,12 @@
 
 <h4 align="center"><i>Stack: </i></h3>
 
-<img align="center" src="./images/stack.jpg"/>
+<div align="center" >
+<img src="./images/stack.png"/>
+</div>
 
 <h1 align="center">THE WHOLE APP IS CUSTOM!</h1>
 <h3 align="center">Built from scratch</h3>
-
-<br/><br/>
 
 <hr/>
 
@@ -43,7 +43,9 @@
 <hr/>
 
 - <i><b>Responsive Design</b></i>
+- <i><b>-</b></i>
 - <i><b>Home page with carousel and top listings</b></i>
+- <i><b>-</b></i>
 - <i><b>Auth (Register, Login) with validations</b></i>
 - <i><b>-</b></i>
 - <i><b>Books page - books listing</b></i>
@@ -73,27 +75,33 @@
 - <i><b>-</b></i>
 - <i><b>Favorites page (logged in users only)</b></i>
 - <i><b>-</b></i>
-- <i><b>Messages Page - read and unread view (admin only)</b></i>
+- <i><b>Messages page - read and unread view (admin only)</b></i>
 - <i><b>Delete message</b></i>
 - <i><b>Mark as read</b></i>
 - <i><b>Mark as unread</b></i>
 - <i><b>-</b></i>
-- <i><b>Orders Page - pending and completed view (admin only)</b></i>
+- <i><b>Orders page - pending and completed view (admin only)</b></i>
 - <i><b>Delete order</b></i>
 - <i><b>Complete order</b></i>
 - <i><b>Mark as pending</b></i>
 - <i><b>-</b></i>
-- <i><b>others (validation service, loading spinner, modal for inform user for errors or for better UI)</b></i>
+- <i><b>others (validation service, loading spinner, modal to inform user for errors or result of requests for better UI)</b></i>
 
 <hr/>
 
-The repo includes "<i>front-end</i>" of the app. BaaS - Firebase.
+The repo includes "<i>front-end</i>" of the app. "<i>Back-end</i>" is provided form BaaS - Firebase.
 
 Dependencies, (besides Create-React-App deps):
 
+- "firebase"
 - "react-router-dom"
 - "moment"
 - "uuid"
 - "crypto-js"
+
+Admin account:
+
+- username: ilia@abv.bg
+- password: Qwerty1!
 
 <h2>Hosted at <a href="https://welovebooks.online/"/>https://welovebooks.online/</h2>
