@@ -1,6 +1,6 @@
 <h1 align="center"><i>WE Love BOOKS</i></h1>
 
-<p align="center"> WeLoveBooks.online is an online bookstore that provides users with the opportunity to purchase, rate, and add books to their favorites collection. An admin panel has also been developed, giving the site administrator basic tools to manage orders and messages from customers.
+<p align="center"> An online bookstore that provides users with the ability to purchase, rate, and add books to their favorite collection, WE Love BOOKS offers a seamless shopping experience. The platform also includes an admin panel that gives the site administrator basic tools to manage orders and messages from customers.
 
 </p>
 
@@ -71,7 +71,8 @@
 - <i><b>About page</b></i>
 - <i><b>-</b></i>
 - <i><b>Contacts page</b></i>
-- <i><b>Create message and send to admin</b></i>
+- <i><b>Integration with google maps API</b></i>
+- <i><b>Contact form with validations</b></i>
 - <i><b>-</b></i>
 - <i><b>Favorites page (logged in users only)</b></i>
 - <i><b>-</b></i>
@@ -89,7 +90,7 @@
 
 <hr/>
 
-The repo includes "<i>front-end</i>" of the app. "<i>Back-end</i>" is provided form BaaS - Firebase.
+The repo includes "<i>front-end</i>" of the app. "<i>Back-end</i>" is provided by BaaS - Firebase.
 
 Dependencies, (besides Create-React-App deps):
 
