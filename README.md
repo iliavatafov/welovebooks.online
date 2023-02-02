@@ -49,7 +49,7 @@
 
 <b>Books page - books listing</b>
 
-<b>Book details</b>
+<b>Book details:</b>
 
 - <i>Update book (admin only)</i>
 - <i>Delete book (admin only)</i>
@@ -57,41 +57,41 @@
 - <i>Add book to favorites (logged in user only)</i>
 - <i>Delete book from favorites (logged in user only)</i>
 
-<i><b>Create book (admin only)</b></i>
+<b>Create book (admin only)</b>
 
-<i><b>Cart page</b></i>
+<b>Cart page:</b>
 
-- <i><b>Delete book from cart (every user exept admin)</b></i>
-- <i><b>Dropdown to choose count of books</b></i>
-- <i><b>Form with validations for delivery and contact data</b></i>
+- <i>Delete book from cart (every user exept admin)</i>
+- <i>Dropdown to choose count of books</i>
+- <i>Form with validations for delivery and contact data</i>
 
-<i><b>Recap page</b></i>
+<b>Recap page</b>
 
-- <i><b>Edit order</b></i>
-- <i><b>Confirm order</b></i>
+- <i>Edit order</i>
+- <i>Confirm order</i>
 
-<i><b>About page</b></i>
+<b>About page</b>
 
-<i><b>Contacts page</b></i>
+<b>Contacts page</b>
 
-- <i><b>Integration with google maps API</b></i>
-- <i><b>Contact form with validations</b></i>
+- <i>Integration with google maps API</i>
+- <i>Contact form with validations</i>
 
-<i><b>Favorites page (logged in users only)</b></i>
+<b>Favorites page (logged in users only)</b>
 
-<i><b>Messages page - read and unread view (admin only)</b></i>
+<b>Messages page - read and unread view (admin only)</b>
 
-- <i><b>Delete message</b></i>
-- <i><b>Mark as read</b></i>
-- <i><b>Mark as unread</b></i>
+- <i>Delete message</i>
+- <i>Mark as read</i>
+- <i>Mark as unread</i>
 
-<i><b>Orders page - pending and completed view (admin only)</b></i>
+<b>Orders page - pending and completed view (admin only)</b>
 
-- <i><b>Delete order</b></i>
-- <i><b>Complete order</b></i>
-- <i><b>Mark as pending</b></i>
+- <i>Delete order</i>
+- <i>Complete order</i>
+- <i>Mark as pending</i>
 
-- <i><b>others (validation service, loading spinner, modal to inform user for errors or result of requests for better UI)</b></i>
+- <b>others (validation service, loading spinner, modal to inform user for errors or result of requests for better UI)</b>
 
 <hr/>
 
