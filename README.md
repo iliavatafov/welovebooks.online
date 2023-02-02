@@ -29,66 +29,71 @@
 
 <h4 align="center"><i>Stack: </i></h3>
 
-<img src="./images/stack.jpg"/>
+<img align="center" src="./images/stack.jpg"/>
 
 <h1 align="center">THE WHOLE APP IS CUSTOM!</h1>
-<h3 align="center">Built from scratch -- No libraries for <i><b>THIS</b></i> and certainly no libraries for <i><b>THAT</b></i>.</h3>
+<h3 align="center">Built from scratch</h3>
 
 <br/><br/>
 
-- _It is good to know that almost every problem in React is solved, but If you can't solve it yourself, even not as good at first, are you not working with magic?
-  If so, are you a magician?_
-
 <hr/>
 
-**Features of the platform (as is, probably won't be updated anymore.)**
+**Features of the platform**
 
 <hr/>
 
 - <i><b>Responsive Design</b></i>
-- <i><b>Home page with carousel, top listings, popular categories and categories with most subcategories</b></i>
-- <i><b>Auth (Register, Login)</b></i>
+- <i><b>Home page with carousel and top listings</b></i>
+- <i><b>Auth (Register, Login) with validations</b></i>
 - <i><b>-</b></i>
-- <i><b>Create listing</b></i>
-- <i><b>Update listing (owner only)</b></i>
-- <i><b>Delete listing (owner only)</b></i>
-- <i><b>Listing details with carousel</b></i>
-- <i><b>Similar listings functionality</b></i>
+- <i><b>Books page - books listing</b></i>
 - <i><b>-</b></i>
-- <i><b>Categories page</b></i>
-- <i><b>Subcategories in a category Page</b></i>
+- <i><b>Book details</b></i>
+- <i><b>Update book (admin only)</b></i>
+- <i><b>Delete book (admin only)</b></i>
+- <i><b>Add book to cart (every user exept admin)</b></i>
+- <i><b>Add book to favorites (logged in user only)</b></i>
+- <i><b>Delete book from favorites (logged in user only)</b></i>
 - <i><b>-</b></i>
-- <i><b>Profile page</b></i>
-- <i><b>Edit profile page (change password, profile images, etc...)</b></i>
-- <i><b>User rating functionality (write review and rate user)</b></i>
-- <i><b>Top users page and functionality</b></i>
+- <i><b>Create book (admin only)</b></i>
 - <i><b>-</b></i>
-- <i><b>Message functionality</b></i>
-- <i><b>Global and page search (some pages, acts like filter)</b></i>
+- <i><b>Cart page</b></i>
+- <i><b>Delete book from cart (every user exept admin)</b></i>
+- <i><b>Dropdown to choose count of books</b></i>
+- <i><b>Form with validations for delivery and contact data</b></i>
 - <i><b>-</b></i>
-- <i><b>others (images placeholders when loading, funny 404 page, etc.)</b></i>
+- <i><b>Recap page</b></i>
+- <i><b>Edit order</b></i>
+- <i><b>Confirm order</b></i>
+- <i><b>-</b></i>
+- <i><b>About page</b></i>
+- <i><b>-</b></i>
+- <i><b>Contacts page</b></i>
+- <i><b>Create message and send to admin</b></i>
+- <i><b>-</b></i>
+- <i><b>Favorites page (logged in users only)</b></i>
+- <i><b>-</b></i>
+- <i><b>Messages Page - read and unread view (admin only)</b></i>
+- <i><b>Delete message</b></i>
+- <i><b>Mark as read</b></i>
+- <i><b>Mark as unread</b></i>
+- <i><b>-</b></i>
+- <i><b>Orders Page - pending and completed view (admin only)</b></i>
+- <i><b>Delete order</b></i>
+- <i><b>Complete order</b></i>
+- <i><b>Mark as pending</b></i>
+- <i><b>-</b></i>
+- <i><b>others (validation service, loading spinner, modal for inform user for errors or for better UI)</b></i>
 
 <hr/>
 
-The repo includes the "<i>back-end</i>" and the "<i>front-end</i>" of the app.
+The repo includes "<i>front-end</i>" of the app. BaaS - Firebase.
 
 Dependencies, (besides Create-React-App deps):
 
-- React Router v6
-- js-cookie for parsing cookies (specifically parsing JWT token cookie)
-- JWT-decode - for decoding the JWT token
-- styled-components (bonus requirement for the project assign)
-- react-icons
+- "react-router-dom"
+- "moment"
+- "uuid"
+- "crypto-js"
 
-The REST API is written with Express JS
-
-<h2>Used: </h2>
-
-- AWS S3 for assets,
-- JSON Web Token for the auth,
-- Bcrypt for password hashing
-- Express Validator
-- Formidable
-- Mongoose
-
-<h2>Hosted at <a href="https://nameri-bg.vercel.app/"/>https://nameri-bg.vercel.app</h2>
+<h2>Hosted at <a href="https://welovebooks.online/"/>https://welovebooks.online/</h2>
