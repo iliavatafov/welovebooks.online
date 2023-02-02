@@ -65,27 +65,27 @@
 - <i>Dropdown to choose count of books</i>
 - <i>Form with validations for delivery and contact data</i>
 
-<b>Recap page</b>
+<b>Recap page:</b>
 
 - <i>Edit order</i>
 - <i>Confirm order</i>
 
 <b>About page</b>
 
-<b>Contacts page</b>
+<b>Contacts page:</b>
 
 - <i>Integration with google maps API</i>
 - <i>Contact form with validations</i>
 
 <b>Favorites page (logged in users only)</b>
 
-<b>Messages page - read and unread view (admin only)</b>
+<b>Messages page - read and unread view (admin only):</b>
 
 - <i>Delete message</i>
 - <i>Mark as read</i>
 - <i>Mark as unread</i>
 
-<b>Orders page - pending and completed view (admin only)</b>
+<b>Orders page - pending and completed view (admin only):</b>
 
 - <i>Delete order</i>
 - <i>Complete order</i>
