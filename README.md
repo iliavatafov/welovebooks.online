@@ -29,7 +29,7 @@
 
 <h4 align="center"><i>Stack: </i></h3>
 
-<img src="./mern_logo.png"/>
+<img src="./images/react-banner-mobile"/>
 
 <h1 align="center">THE WHOLE APP IS CUSTOM!</h1>
 <h3 align="center">Built from scratch -- No libraries for <i><b>THIS</b></i> and certainly no libraries for <i><b>THAT</b></i>.</h3>
