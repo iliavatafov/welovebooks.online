@@ -95,7 +95,7 @@
 
 <hr/>
 
-The repo includes "<i>front-end</i>" of the app. "<i>Back-end</i>" is provided by BaaS - Firebase.
+<b>The repo includes "<i>front-end</i>" of the app. "<i>Back-end</i>" is provided by BaaS - Firebase.<b>
 
 Dependencies, (besides Create-React-App deps):
 
