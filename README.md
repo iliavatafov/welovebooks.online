@@ -43,49 +43,49 @@
 <hr/>
 
 - <i><b>Responsive Design</b></i>
-  <br/>
+  <br>
 - <i><b>Home page with carousel and top listings</b></i>
-  <br/>
+  <br>
 - <i><b>Auth (Register, Login) with validations</b></i>
-  <br/>
+  <br>
 - <i><b>Books page - books listing</b></i>
-  <br/>
+  <br>
 - <i><b>Book details</b></i>
 - <i><b>Update book (admin only)</b></i>
 - <i><b>Delete book (admin only)</b></i>
 - <i><b>Add book to cart (every user exept admin)</b></i>
 - <i><b>Add book to favorites (logged in user only)</b></i>
 - <i><b>Delete book from favorites (logged in user only)</b></i>
-  <br/>
+  <br>
 - <i><b>Create book (admin only)</b></i>
-  <br/>
+  <br>
 - <i><b>Cart page</b></i>
 - <i><b>Delete book from cart (every user exept admin)</b></i>
 - <i><b>Dropdown to choose count of books</b></i>
 - <i><b>Form with validations for delivery and contact data</b></i>
-  <br/>
+  <br>
 - <i><b>Recap page</b></i>
 - <i><b>Edit order</b></i>
 - <i><b>Confirm order</b></i>
-  <br/>
+  <br>
 - <i><b>About page</b></i>
-  <br/>
+  <br>
 - <i><b>Contacts page</b></i>
 - <i><b>Integration with google maps API</b></i>
 - <i><b>Contact form with validations</b></i>
-  <br/>
+  <br>
 - <i><b>Favorites page (logged in users only)</b></i>
-  <br/>
+  <br>
 - <i><b>Messages page - read and unread view (admin only)</b></i>
 - <i><b>Delete message</b></i>
 - <i><b>Mark as read</b></i>
 - <i><b>Mark as unread</b></i>
-  <br/>
+  <br>
 - <i><b>Orders page - pending and completed view (admin only)</b></i>
 - <i><b>Delete order</b></i>
 - <i><b>Complete order</b></i>
 - <i><b>Mark as pending</b></i>
-  <br/>
+  <br>
 - <i><b>others (validation service, loading spinner, modal to inform user for errors or result of requests for better UI)</b></i>
 
 <hr/>
