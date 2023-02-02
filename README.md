@@ -99,15 +99,15 @@ The repo includes "<i>front-end</i>" of the app. "<i>Back-end</i>" is provided b
 
 <b>Dependencies, (besides Create-React-App deps):<b>
 
-- "firebase"
-- "react-router-dom"
-- "moment"
-- "uuid"
-- "crypto-js"
+- <i>"firebase"<i>
+- <i>"react-router-dom"<i>
+- <i>"moment"<i>
+- <i>"uuid"<i>
+- <i>"crypto-js"<i>
 
 <b>Admin account:<b>
 
-- username: ilia@abv.bg
-- password: Qwerty1!
+- <i>username: ilia@abv.bg<i>
+- <i>password: Qwerty1!<i>
 
 <h2>Hosted at <a href="https://welovebooks.online/"/>https://welovebooks.online/</h2>
