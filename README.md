@@ -16,15 +16,11 @@
     <hr/>
     <img src="./images/About.jpg"/>
     <hr/>
-    <hr/>
     <img src="./images/Contacts.jpg"/>
-    <hr/>
     <hr/>
     <img src="./images/Cart.jpg"/>
     <hr/>
-    <hr/>
     <img src="./images/Orders.jpg"/>
-    <hr/>
     <hr/>
     <img src="./images/Messages.jpg"/>
     <hr/>
