@@ -51,11 +51,11 @@
 
 <b>Book details</b>
 
-- <i><b>Update book (admin only)</b></i>
-- <i><b>Delete book (admin only)</b></i>
-- <i><b>Add book to cart (every user exept admin)</b></i>
-- <i><b>Add book to favorites (logged in user only)</b></i>
-- <i><b>Delete book from favorites (logged in user only)</b></i>
+- <i>Update book (admin only)</i>
+- <i>Delete book (admin only)</i>
+- <i>Add book to cart (every user exept admin)</i>
+- <i>Add book to favorites (logged in user only)</i>
+- <i>Delete book from favorites (logged in user only)</i>
 
 <i><b>Create book (admin only)</b></i>
 
