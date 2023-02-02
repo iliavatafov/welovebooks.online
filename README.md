@@ -41,15 +41,16 @@
 
 <hr/>
 
-- <i><b>Responsive Design</b></i>
+<i><b>Responsive Design</b></i>
 
-- <i><b>Home page with carousel and top listings</b></i>
+<i><b>Home page with carousel and top listings</b></i>
 
-- <i><b>Auth (Register, Login) with validations</b></i>
+<i><b>Auth (Register, Login) with validations</b></i>
 
-- <i><b>Books page - books listing</b></i>
+<i><b>Books page - books listing</b></i>
 
-- <i><b>Book details</b></i>
+<i><b>Book details</b></i>
+
 - <i><b>Update book (admin only)</b></i>
 - <i><b>Delete book (admin only)</b></i>
 - <i><b>Add book to cart (every user exept admin)</b></i>
