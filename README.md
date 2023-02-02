@@ -8,25 +8,25 @@
 
 <p align="center">
       <a href="https://welovebooks.online/">
-    <img src="./images/home.png"/>
+    <img src="./images/home.jpg"/>
     <hr/>
-    <img src="./images/Books.png"/>
+    <img src="./images/Books.jpg"/>
     <hr/>
-    <img src="./images/Details.png"/>
+    <img src="./images/Details.jpg"/>
     <hr/>
-    <img src="./images/About.png"/>
-    <hr/>
-    <hr/>
-    <img src="./images/Contacts.png"/>
+    <img src="./images/About.jpg"/>
     <hr/>
     <hr/>
-    <img src="./images/Cart.png"/>
+    <img src="./images/Contacts.jpg"/>
     <hr/>
     <hr/>
-    <img src="./images/Orders.png"/>
+    <img src="./images/Cart.jpg"/>
     <hr/>
     <hr/>
-    <img src="./images/Messages.png"/>
+    <img src="./images/Orders.jpg"/>
+    <hr/>
+    <hr/>
+    <img src="./images/Messages.jpg"/>
     <hr/>
     </a>
 <p>
