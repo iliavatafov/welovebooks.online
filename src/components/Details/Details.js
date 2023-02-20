@@ -57,6 +57,7 @@ export const Details = () => {
         userData.cartData.unshift(bookData.id);
 
         try {
+          userData.id = user.id;
           const response = await UpdateUser(userData);
 
           if (response.success) {
