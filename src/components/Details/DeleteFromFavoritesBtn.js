@@ -5,10 +5,12 @@ import { AuthContext } from "../../context/AuthContext";
 import { LoadingContext } from "../../context/LoadingContext";
 
 import { UpdateUser } from "../../apis/users";
+import { LoadingSpinner } from "../Spinner/Spinner";
 
 export const DeleteFromFavoritesBtn = ({ userData, id }) => {
   const { user, userLogin } = useContext(AuthContext);
-  const { showModal, addModalMessage } = useContext(LoadingContext);
+  const { showModal, addModalMessage, showLoading, hideLoading, isLoading } =
+    useContext(LoadingContext);
 
   const navigate = useNavigate();
 
@@ -18,26 +20,27 @@ export const DeleteFromFavoritesBtn = ({ userData, id }) => {
     const favoriteBooks = currentFavoriteBooks.filter((b) => b !== id);
 
     try {
+      showLoading();
       const result = await UpdateUser({
         ...userData,
         favoriteBooks,
         id: user.id,
       });
-
+      hideLoading();
       if (result.success) {
         userLogin(result.data);
         navigate("/favorites");
-      } else {
-        showModal();
-        addModalMessage(result.message);
       }
     } catch (error) {
+      hideLoading();
       showModal();
       addModalMessage(error.message);
     }
   };
 
-  return (
+  return isLoading ? (
+    <LoadingSpinner />
+  ) : (
     <div className="favorites-wrapper">
       <button
         onClick={deleteFromFavorites}

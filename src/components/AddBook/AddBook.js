@@ -23,7 +23,6 @@ export const AddBook = () => {
     price: "",
     pageCount: "",
     issueYear: "",
-    rating: "0",
     rating: {
       rating: 0,
       usersRated: [],

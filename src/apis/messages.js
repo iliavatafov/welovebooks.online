@@ -9,7 +9,6 @@ export const GetAllMessages = async () => {
     querySnapshot.forEach((doc) => {
       messages.push({ ...doc.data() });
     });
-
     return {
       success: true,
       message: "The messages are fetched correctly",

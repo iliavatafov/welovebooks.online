@@ -16,7 +16,6 @@ export const GetAllUsers = async () => {
     querySnapshot.forEach((doc) => {
       users.push({ id: doc.id, ...doc.data() });
     });
-
     return {
       success: true,
       message: "Users are fetched correctly",

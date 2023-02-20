@@ -10,6 +10,7 @@ import { BookContext } from "./BookContext";
 
 import { UpdateUser } from "../apis/users";
 import { GetUserProfile } from "../apis/users";
+import { useCallback } from "react";
 
 export const CartContext = createContext();
 
@@ -34,15 +35,16 @@ export const CartProvider = ({ children }) => {
       showLoading();
       GetUserProfile(user.id)
         .then((res) => {
-          setUserData(res.data);
           hideLoading();
+          setUserData(res.data);
         })
         .catch((error) => {
+          hideLoading();
           showModal();
           addModalMessage(error.message);
         });
     }
-  }, [user]);
+  }, [user, showLoading, hideLoading, showModal, addModalMessage]);
 
   useEffect(() => {
     let booksToRender = [];
@@ -119,14 +121,14 @@ export const CartProvider = ({ children }) => {
     }
   };
 
-  const gatherPriceData = (id, value) => {
+  const gatherPriceData = useCallback((id, value) => {
     setBooksPriceData((currentState) => {
       return {
         ...currentState,
         [id]: value,
       };
     });
-  };
+  }, []);
 
   const clearPriceData = () => {
     setBooksPriceData({});

@@ -32,7 +32,7 @@ export const Recap = ({ inputValues, clearInputValues }) => {
 
   const onOrder = async () => {
     const trimedInput = {};
-    Object.entries(inputValues).map((el) => {
+    Object.entries(inputValues).forEach((el) => {
       trimedInput[el[0]] = el[1].trim();
     });
     try {

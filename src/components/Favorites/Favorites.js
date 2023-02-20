@@ -16,8 +16,8 @@ export const Favorites = () => {
 
   const favoriteBooks = [];
 
-  user.favoriteBooks.map((id) => {
-    books.map((el) => {
+  user.favoriteBooks.forEach((id) => {
+    books.forEach((el) => {
       if (el.id === id) {
         favoriteBooks.push(el);
       }

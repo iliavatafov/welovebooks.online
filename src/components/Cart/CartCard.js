@@ -23,7 +23,13 @@ export const CartCard = ({ bookData, index }) => {
       bookData.id,
       Number(bookData.price) * Number(selectedValue)
     );
-  }, [selectedValue, totalAmount, bookData.id, bookData.price]);
+  }, [
+    selectedValue,
+    totalAmount,
+    bookData.id,
+    bookData.price,
+    gatherPriceData,
+  ]);
 
   const onChange = (e) => {
     setSelectedValue(Number(e.target.value));

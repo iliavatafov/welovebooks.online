@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useCallback, useState } from "react";
 import { createContext } from "react";
 
 export const LoadingContext = createContext();
@@ -8,25 +8,25 @@ export const LoadingProvider = ({ children }) => {
   const [isModal, setIsModal] = useState(false);
   const [modalMessage, setModalMessage] = useState("");
 
-  const showLoading = () => {
+  const showLoading = useCallback(() => {
     setIsLoading(true);
-  };
+  }, []);
 
-  const hideLoading = () => {
+  const hideLoading = useCallback(() => {
     setIsLoading(false);
-  };
+  }, []);
 
-  const showModal = () => {
+  const showModal = useCallback(() => {
     setIsModal(true);
-  };
+  }, []);
 
-  const hideModal = () => {
+  const hideModal = useCallback(() => {
     setIsModal(false);
-  };
+  }, []);
 
-  const addModalMessage = (message) => {
+  const addModalMessage = useCallback((message) => {
     setModalMessage(message);
-  };
+  }, []);
 
   return (
     <LoadingContext.Provider
