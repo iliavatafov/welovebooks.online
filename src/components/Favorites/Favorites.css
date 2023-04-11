@@ -61,7 +61,7 @@
   }
 }
 
-@media screen and (max-width: 1800px) {
+@media screen and (max-width: 1400px) {
   .favorites-container-grid {
     grid-template-columns: 1fr 1fr;
   }

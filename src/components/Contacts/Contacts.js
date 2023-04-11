@@ -158,7 +158,7 @@ export const Contacts = () => {
           </form>
           <div className="contact-data">
             <img
-              src="https://lh3.googleusercontent.com/69RyyC5xQjhrNOaJCyt6zzjCapJXVLL9uuYYvHGKyb72vCYzxNRiWeBIEWyC6ZJs1gHb6SRDEAwem_G2dyLoRwY"
+              src="https://i.postimg.cc/QdFz0JTL/a-book-gb57d7dbf8-1920.jpg"
               alt="bookstore"
             />
             <h2 className="title">Contacts</h2>
